@@ -70,8 +70,8 @@ for fname in os.listdir('.'):
             with open(nodePath + file_path) as f:
                 data = json.load(f)
             newData = {'hosts' : {'127.0.0.1': [] }}
-            for host,keys in data['hosts'].iteritems():
-                newData['hosts']['127.0.0.1'].append(keys[0])
+            for host in data['hosts']
+                newData['hosts']['127.0.0.1'].append(data['hosts'][host][0])
             with open(nodePath + file_path, 'w') as f:
                 f.write(json.dumps(newData))
 
