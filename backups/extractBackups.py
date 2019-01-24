@@ -69,9 +69,9 @@ for fname in os.listdir('.'):
         for file_path in tlsFiles:
             with open(nodePath + file_path) as f:
                 data = json.load(f)
-            newData = {'hosts' : {'127.0.0.1': [] }}
-            for host in data['hosts']
-                newData['hosts']['127.0.0.1'].append(data['hosts'][host][0])
+            newData = {'hosts' : {'127.0.0.2': [] }}
+            for host in data['hosts']:
+                newData['hosts']['127.0.0.2'].append(data['hosts'][host][0])
             with open(nodePath + file_path, 'w') as f:
                 f.write(json.dumps(newData))
 
