@@ -1,0 +1,10 @@
+backup tgzs go in this directory, file format example e0dsn0g54u-e0h5r99f9a-backup.tgz
+
+todo:
+
+constellation traffic on 127.0.0.2 (done already?)
+
+find fingerprints here:
+openssl x509 -noout -fingerprint -sha512 -inform pem -in [certificate-file.crt]
+
+to be added to tls-known-clients and tls-known-servers
