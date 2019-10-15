@@ -1,5 +1,7 @@
 backup tgzs go in this directory, file format example e0dsn0g54u-e0h5r99f9a-backup.tgz
 
+The scripts right now replace specific IPs which are hard coded in the backups. Here is the location of three backups which were used with this script: https://drive.google.com/drive/u/0/folders/11c5lqGEwE2AgLDpg4MqmpesbOlJR_XTO
+
 todo:
 
 constellation traffic on 127.0.0.2 (done already?)
